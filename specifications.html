@@ -17,7 +17,7 @@
     <!-- Хедер навигация по сайту-->
     <header class="page-header">
       <a class="logo" href=""
-        ><img class="logo__icon" src="" alt="" />
+        ><svg><use></use></svg>
         ShadowHand
       </a>
       <nav class="site-nav">
@@ -85,12 +85,24 @@
 
     <section class="section">
       <h2 class="availiability">Use it on all your devices</h2>
-      <li class="availiability__platform"></li>
-      <li class="availiability__platform"></li>
-      <li class="availiability__platform"></li>
-      <li class="availiability__platform"></li>
-      <li class="availiability__platform"></li>
-      <li class="availiability__platform"></li>
+      <li class="availiability__platform">
+        <svg><use></use></svg>
+      </li>
+      <li class="availiability__platform">
+        <svg class="logo__icon"><use></use></svg>
+      </li>
+      <li class="availiability__platform">
+        <svg class="logo__icon"><use></use></svg>
+      </li>
+      <li class="availiability__platform">
+        <svg class="logo__icon"><use></use></svg>
+      </li>
+      <li class="availiability__platform">
+        <svg class="logo__icon"><use></use></svg>
+      </li>
+      <li class="availiability__platform">
+        <svg class="logo__icon"><use></use></svg>
+      </li>
     </section>
 
     <!-- Секция опсиания продуктов -->
@@ -132,14 +144,9 @@
       </p>
 
       <form class="form-data">
-        <label class="form-dat__label" name="mail">
+        <label class="form-dat__label">
           Submit your application
-          <input
-            class="form-data__type"
-            type="email"
-            name="mail"
-            placeholder="E-mail"
-          />
+          <input class="form-data__type" type="email" placeholder="E-mail" />
         </label>
         <button class="form-data__button" type="button">Try it now</button>
       </form>
@@ -176,5 +183,62 @@
         wifi — Based in Switzerland —
       </p>
     </section>
+
+    <section class="section">
+      <h3 class="plan">Choice the plan</h3>
+      <ul>
+        <li class="plan__price">
+          1-month plan EUR 6,3 /mo EUR 10,2/mo
+          <button class="plan__button" type="button">Get it now</button>30-day
+          money-back guarantee
+        </li>
+        <li class="plan__price">
+          1-year plan plan EUR 2,1 /mo EUR 4,3/mo
+          <button class="plan__button" type="button">Get it now</button>30-day
+          money-back guarantee
+        </li>
+        <li class="plan__price">
+          6-month plan plan EUR 4,2 /mo EUR 6,3/mo
+          <button class="plan__button" type="button">Get it now</button>30-day
+          money-back guarantee
+        </li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <div class="video">
+        <p class="video__text">
+          WATCH HOW IT WORKS - WATCH HOW IT WORKS - WATCH HOW IT WORKS
+        </p>
+      </div>
+      <h3 class="faq-questions">faq</h3>
+      <ul class="faq__questions-list">
+        <li class="faq__questions-item">How does it work?</li>
+        <li class="faq__questions-item">
+          Why should I choose over a free VPN?
+        </li>
+        <li class="faq__questions-item">Can I use the app overseas?</li>
+        <li class="faq__questions-item">Do you log my data?</li>
+        <li class="faq__questions-item">How do I upgrade my plan?</li>
+        <li class="faq__questions-item">How many IPs do you have?</li>
+      </ul>
+      <button class="question-btn" type="button">Ask a Question</button>
+      <button class="tarrif-plan-btn" type="button">Choose the plan</button>
+    </section>
+    <footer class="footer">
+      <a class="logo" href=""
+        ><svg class="logo__icon"><use></use></svg>
+        ShadowHand
+      </a>
+      <ul class="info">
+        <li class="info__item">About</li>
+        <li class="info__item">Help center</li>
+        <li class="info__item">Privacy policy</li>
+        <li class="info__item">Contact us</li>
+      </ul>
+      <p class="copyright">
+        2021 Copyright ShadowHand&#174;. All rights reserved.
+      </p>
+    </footer>
   </body>
 </html>
