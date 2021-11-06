@@ -12,6 +12,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <!-- Хедер навигация по сайту-->
@@ -47,184 +48,191 @@
 
     <!-- Герой -->
 
-    <section class="hero">
-      <h1 class="hero__title">Take back your privacy</h1>
-      <p class="hero__description">
-        Security, reliability and speed — on every device, anywhere you go.
-      </p>
-      <button class="hero__button" type="button">Getкit now</button>
-
-      <!-- Лист приемуществ -->
-
-      <ul class="advantage-list">
-        <li class="advantage-list__item">
-          <p class="advantage-list__text">3318 Servers</p>
-        </li>
-
-        <li class="advantage-list__item">
-          <p class="advantage-list__text">30-day money-back guarantee</p>
-        </li>
-
-        <li class="advantage-list__item">
-          <p class="advantage-list__text">Up to 1000Mbps bandwidth</p>
-        </li>
-
-        <li class="advantage-list__item">
-          <p class="advantage-list__text">62 Countries</p>
-        </li>
-        <li class="advantage-list__item">
-          <p class="advantage-list__text">save 27$</p>
-        </li>
-      </ul>
-
-      <button class="hero__slider" type="button"></button>
-      <button class="hero__slider" type="button"></button>
-    </section>
-
-    <!-- Секция поддерживаемых операционных систем -->
-
-    <section class="section">
-      <h2 class="availiability">Use it on all your devices</h2>
-      <li class="availiability__platform">
-        <svg><use></use></svg>
-      </li>
-      <li class="availiability__platform">
-        <svg class="logo__icon"><use></use></svg>
-      </li>
-      <li class="availiability__platform">
-        <svg class="logo__icon"><use></use></svg>
-      </li>
-      <li class="availiability__platform">
-        <svg class="logo__icon"><use></use></svg>
-      </li>
-      <li class="availiability__platform">
-        <svg class="logo__icon"><use></use></svg>
-      </li>
-      <li class="availiability__platform">
-        <svg class="logo__icon"><use></use></svg>
-      </li>
-    </section>
-
-    <!-- Секция опсиания продуктов -->
-
-    <section class="section">
-      <h2 class="pruduct">One tap to privacy</h2>
-      <p class="product__description">
-        Surf, stream, game, and get work done while maintaining your privacy
-        online. Whether you’re traveling, using public WiFi, or simply looking
-        for more online security, we will always put your privacy first. Connect
-        reliably from anywhere, to anywhere. Our network of high-speed servers
-        across 94 countries puts you in control. Going online doesn’t have to
-        mean being exposed. Whether you’re shopping from your desk or just
-        connecting at a cafe, keep your personal information more private and
-        secure.
-      </p>
-      <button class="product-button" type="button">Get it now</button>
-
-      <ul class="product-advantage">
-        <li class="product-advantage__list">Watch content without tracking</li>
-
-        <li class="product-advantage__list">
-          Hide your location and avoid tracking
-        </li>
-
-        <li class="product-advantage__list">Browse privately</li>
-
-        <li class="product-advantage__list">Stop annoying ads</li>
-      </ul>
-    </section>
-
-    <!-- Предложение -->
-
-    <section class="section">
-      <h3 class="offer">Try it free</h3>
-      <p class="offer__description">
-        One package - four tools to protect yourself. From your devices to
-        online presence. Order free 7-day trial for your laptop
-      </p>
-
-      <form class="form-data">
-        <label class="form-dat__label">
-          Submit your application
-          <input class="form-data__type" type="email" placeholder="E-mail" />
-        </label>
-        <button class="form-data__button" type="button">Try it now</button>
-      </form>
-    </section>
-
-    <!-- Отзывы -->
-    <section class="section">
-      <div class="reviews">
-        <h3 class="reviews__title">Reviews</h3>
-        <p class="reviews__description"></p>
-        <button class="reviews__slider"></button>
-        <button class="reviews__slider"></button>
-      </div>
-
-      <ul class="client-reviews">
-        <li class="client-reviews__list">
-          “ShadowHand proves its worth with a large collection of privacy tools,
-          an excellent app, and unlimited device connections”
-        </li>
-        <li class="client-reviews__list">
-          “I’m a long time user for this VPN service, started in 2016 and it’s
-          been working wonders”
-        </li>
-      </ul>
-
-      <p class="services">
-        No Logs Policy — Unlimited devices — 24/7 customer support — High-speed
-        content delivery — All advanced security features — Stay safe on public
-        wifi — Based in Switzerland —
-      </p>
-      <p class="services">
-        No Logs Policy — Unlimited devices — Keep your personal information
-        private — Bypass local censorship — No Logs Policy — Stay safe on public
-        wifi — Based in Switzerland —
-      </p>
-    </section>
-
-    <section class="section">
-      <h3 class="plan">Choice the plan</h3>
-      <ul>
-        <li class="plan__price">
-          1-month plan EUR 6,3 /mo EUR 10,2/mo
-          <button class="plan__button" type="button">Get it now</button>30-day
-          money-back guarantee
-        </li>
-        <li class="plan__price">
-          1-year plan plan EUR 2,1 /mo EUR 4,3/mo
-          <button class="plan__button" type="button">Get it now</button>30-day
-          money-back guarantee
-        </li>
-        <li class="plan__price">
-          6-month plan plan EUR 4,2 /mo EUR 6,3/mo
-          <button class="plan__button" type="button">Get it now</button>30-day
-          money-back guarantee
-        </li>
-      </ul>
-    </section>
-
-    <section class="section">
-      <div class="video">
-        <p class="video__text">
-          WATCH HOW IT WORKS - WATCH HOW IT WORKS - WATCH HOW IT WORKS
+    <main>
+      <section class="hero">
+        <h1 class="hero__title">Take back your privacy</h1>
+        <p class="hero__description">
+          Security, reliability and speed — on every device, anywhere you go.
         </p>
-      </div>
-      <h3 class="faq-questions">faq</h3>
-      <ul class="faq__questions-list">
-        <li class="faq__questions-item">How does it work?</li>
-        <li class="faq__questions-item">
-          Why should I choose over a free VPN?
-        </li>
-        <li class="faq__questions-item">Can I use the app overseas?</li>
-        <li class="faq__questions-item">Do you log my data?</li>
-        <li class="faq__questions-item">How do I upgrade my plan?</li>
-        <li class="faq__questions-item">How many IPs do you have?</li>
-      </ul>
-      <button class="question-btn" type="button">Ask a Question</button>
-      <button class="tarrif-plan-btn" type="button">Choose the plan</button>
-    </section>
+        <button class="hero__button" type="button">Getкit now</button>
+
+        <!-- Лист приемуществ -->
+
+        <ul class="advantage-list">
+          <li class="advantage-list__item">
+            <p class="advantage-list__text">3318 Servers</p>
+          </li>
+
+          <li class="advantage-list__item">
+            <p class="advantage-list__text">30-day money-back guarantee</p>
+          </li>
+
+          <li class="advantage-list__item">
+            <p class="advantage-list__text">Up to 1000Mbps bandwidth</p>
+          </li>
+
+          <li class="advantage-list__item">
+            <p class="advantage-list__text">62 Countries</p>
+          </li>
+          <li class="advantage-list__item">
+            <p class="advantage-list__text">save 27$</p>
+          </li>
+        </ul>
+
+        <button class="hero__slider" type="button"></button>
+        <button class="hero__slider" type="button"></button>
+      </section>
+
+      <!-- Секция поддерживаемых операционных систем -->
+
+      <section class="section">
+        <h2 class="availiability">Use it on all your devices</h2>
+        <ul class="availiability__list">
+          <li class="availiability__platform">
+            <svg><use></use></svg>
+          </li>
+          <li class="availiability__platform">
+            <svg class="logo__icon"><use></use></svg>
+          </li>
+          <li class="availiability__platform">
+            <svg class="logo__icon"><use></use></svg>
+          </li>
+          <li class="availiability__platform">
+            <svg class="logo__icon"><use></use></svg>
+          </li>
+          <li class="availiability__platform">
+            <svg class="logo__icon"><use></use></svg>
+          </li>
+          <li class="availiability__platform">
+            <svg class="logo__icon"><use></use></svg>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Секция опсиания продуктов -->
+
+      <section class="section">
+        <h2 class="pruduct">One tap to privacy</h2>
+        <p class="product__description">
+          Surf, stream, game, and get work done while maintaining your privacy
+          online. Whether you’re traveling, using public WiFi, or simply looking
+          for more online security, we will always put your privacy first.
+          Connect reliably from anywhere, to anywhere. Our network of high-speed
+          servers across 94 countries puts you in control. Going online doesn’t
+          have to mean being exposed. Whether you’re shopping from your desk or
+          just connecting at a cafe, keep your personal information more private
+          and secure.
+        </p>
+        <button class="product-button" type="button">Get it now</button>
+
+        <ul class="product-advantage">
+          <li class="product-advantage__list">
+            Watch content without tracking
+          </li>
+
+          <li class="product-advantage__list">
+            Hide your location and avoid tracking
+          </li>
+
+          <li class="product-advantage__list">Browse privately</li>
+
+          <li class="product-advantage__list">Stop annoying ads</li>
+        </ul>
+      </section>
+
+      <!-- Предложение -->
+
+      <section class="section">
+        <h3 class="offer">Try it free</h3>
+        <p class="offer__description">
+          One package - four tools to protect yourself. From your devices to
+          online presence. Order free 7-day trial for your laptop
+        </p>
+
+        <form class="form-data">
+          <label class="form-dat__label">
+            Submit your application
+            <input class="form-data__type" type="email" placeholder="E-mail" />
+          </label>
+          <button class="form-data__button" type="button">Try it now</button>
+        </form>
+      </section>
+
+      <!-- Отзывы -->
+      <section class="section">
+        <div class="reviews">
+          <h3 class="reviews__title">Reviews</h3>
+          <p class="reviews__description"></p>
+          <button class="reviews__slider"></button>
+          <button class="reviews__slider"></button>
+        </div>
+
+        <ul class="client-reviews">
+          <li class="client-reviews__list">
+            “ShadowHand proves its worth with a large collection of privacy
+            tools, an excellent app, and unlimited device connections”
+          </li>
+          <li class="client-reviews__list">
+            “I’m a long time user for this VPN service, started in 2016 and it’s
+            been working wonders”
+          </li>
+        </ul>
+
+        <p class="services">
+          No Logs Policy — Unlimited devices — 24/7 customer support —
+          High-speed content delivery — All advanced security features — Stay
+          safe on public wifi — Based in Switzerland —
+        </p>
+        <p class="services">
+          No Logs Policy — Unlimited devices — Keep your personal information
+          private — Bypass local censorship — No Logs Policy — Stay safe on
+          public wifi — Based in Switzerland —
+        </p>
+      </section>
+
+      <section class="section">
+        <h3 class="plan">Choice the plan</h3>
+        <ul>
+          <li class="plan__price">
+            1-month plan EUR 6,3 /mo EUR 10,2/mo
+            <button class="plan__button" type="button">Get it now</button>30-day
+            money-back guarantee
+          </li>
+          <li class="plan__price">
+            1-year plan plan EUR 2,1 /mo EUR 4,3/mo
+            <button class="plan__button" type="button">Get it now</button>30-day
+            money-back guarantee
+          </li>
+          <li class="plan__price">
+            6-month plan plan EUR 4,2 /mo EUR 6,3/mo
+            <button class="plan__button" type="button">Get it now</button>30-day
+            money-back guarantee
+          </li>
+        </ul>
+      </section>
+
+      <section class="section">
+        <div class="video">
+          <p class="video__text">
+            WATCH HOW IT WORKS - WATCH HOW IT WORKS - WATCH HOW IT WORKS
+          </p>
+        </div>
+        <h3 class="faq-questions">faq</h3>
+        <ul class="faq__questions-list">
+          <li class="faq__questions-item">How does it work?</li>
+          <li class="faq__questions-item">
+            Why should I choose over a free VPN?
+          </li>
+          <li class="faq__questions-item">Can I use the app overseas?</li>
+          <li class="faq__questions-item">Do you log my data?</li>
+          <li class="faq__questions-item">How do I upgrade my plan?</li>
+          <li class="faq__questions-item">How many IPs do you have?</li>
+        </ul>
+        <button class="question-btn" type="button">Ask a Question</button>
+        <button class="tarrif-plan-btn" type="button">Choose the plan</button>
+      </section>
+    </main>
+
     <footer class="footer">
       <a class="logo" href=""
         ><svg class="logo__icon"><use></use></svg>

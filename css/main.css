@@ -1,0 +1,27 @@
+body {
+  color: var(--text-color);
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(248, 243, 255, 0.4)), to(rgba(248, 243, 255, 0.4))), #ffffff;
+  background: linear-gradient(0deg, rgba(248, 243, 255, 0.4), rgba(248, 243, 255, 0.4)), #ffffff;
+  height: 4683px;
+}
+
+:root {
+  --text-color: #0D224E;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../sass/base/fonts/roboto-regular-webfont.woff") format("woff"), url("../sass/base/fonts/roboto-regular-webfont.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../sass/base/fonts/roboto-medium-webfont.woff") format("woff"), url("../sass/base/fonts/roboto-medium-webfont.woff2") format("woff2");
+}
+/*# sourceMappingURL=main.css.map */
