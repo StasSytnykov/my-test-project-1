@@ -1,10 +1,18 @@
 body {
+  font-family: 'Inter', sans-serif;
   color: var(--text-color);
+
   background: linear-gradient(
       0deg,
       rgba(248, 243, 255, 0.4),
       rgba(248, 243, 255, 0.4)
     ),
     #ffffff;
-    height: 4683px;
+}
+
+.container {
+  width: 1440px;
+  padding: 0 15px;
+  margin-left: auto;
+  margin-right: auto;
 }

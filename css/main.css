@@ -1,12 +1,76 @@
 body {
+  font-family: 'Inter', sans-serif;
   color: var(--text-color);
   background: -webkit-gradient(linear, left bottom, left top, from(rgba(248, 243, 255, 0.4)), to(rgba(248, 243, 255, 0.4))), #ffffff;
   background: linear-gradient(0deg, rgba(248, 243, 255, 0.4), rgba(248, 243, 255, 0.4)), #ffffff;
-  height: 4683px;
+}
+
+.container {
+  width: 1440px;
+  padding: 0 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 :root {
   --text-color: #0D224E;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+p {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../sass/base/fonts/Inter-Regular.woff") format("woff"), url("../sass/base/fonts/Inter-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../sass/base/fonts/Inter-Medium.woff") format("woff"), url("../sass/base/fonts/Inter-Medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../sass/base/fonts/Inter-SemiBold.woff") format("woff"), url("../sass/base/fonts/Inter-SemiBold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../sass/base/fonts/Inter-Bold.woff") format("woff"), url("../sass/base/fonts/Inter-Bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("../sass/base/fonts/Inter-ExtraBold.woff") format("woff"), url("../sass/base/fonts/Inter-ExtraBold.woff2") format("woff2");
 }
 
 @font-face {
@@ -23,5 +87,130 @@ body {
   font-weight: 500;
   font-display: swap;
   src: url("../sass/base/fonts/roboto-medium-webfont.woff") format("woff"), url("../sass/base/fonts/roboto-medium-webfont.woff2") format("woff2");
+}
+
+.tile:nth-child(1) {
+  position: absolute;
+  width: 770px;
+  height: 617px;
+  left: calc(50% - 770px / 2 - 449px);
+  top: 181px;
+  background: rgba(74, 134, 255, 0.3);
+  -webkit-filter: blur(500px);
+          filter: blur(500px);
+}
+
+.tile:nth-child(2) {
+  position: absolute;
+  width: 1000px;
+  height: 927px;
+  left: calc(50% - 1000px / 2 + 668px);
+  top: 509px;
+  background: rgba(239, 57, 89, 0.4);
+  -webkit-filter: blur(500px);
+          filter: blur(500px);
+}
+
+.tile:nth-child(3) {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  left: calc(50% - 400px / 2 - 671px);
+  top: 1426px;
+  background: rgba(74, 134, 255, 0.3);
+  -webkit-filter: blur(500px);
+          filter: blur(500px);
+}
+
+.tile:nth-child(4) {
+  position: absolute;
+  width: 367px;
+  height: 380px;
+  left: 1061px;
+  top: 3204px;
+  background: #bcacdf;
+  -webkit-filter: blur(300px);
+          filter: blur(300px);
+  border-radius: 600px;
+}
+
+.tile:nth-child(5) {
+  position: absolute;
+  width: 593px;
+  height: 512px;
+  left: calc(50% - 593px / 2 - 596.5px);
+  top: 4333px;
+  background: rgba(74, 134, 255, 0.5);
+  -webkit-filter: blur(300px);
+          filter: blur(300px);
+}
+
+.tile:nth-child(6) {
+  position: absolute;
+  width: 872px;
+  height: 704px;
+  left: calc(50% - 872px / 2 + 333px);
+  top: 2781px;
+  /* light red */
+  background: rgba(239, 57, 89, 0.4);
+  -webkit-filter: blur(300px);
+          filter: blur(300px);
+}
+
+.tile:nth-child(7) {
+  position: absolute;
+  width: 1065px;
+  height: 977px;
+  left: calc(50% - 1065px / 2 - 260.5px);
+  top: 2728px;
+  /* circle color */
+  background: rgba(74, 134, 255, 0.5);
+  -webkit-filter: blur(300px);
+          filter: blur(300px);
+}
+
+.tile:nth-child(8) {
+  position: absolute;
+  width: 355px;
+  height: 337px;
+  left: calc(50% - 355px / 2 + 347.5px);
+  top: 3916px;
+  /* light blue */
+  background: #a4c2ff;
+  -webkit-filter: blur(200px);
+          filter: blur(200px);
+}
+
+.tile:nth-child(9) {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  left: calc(50% - 300px / 2 - 690px);
+  top: 2340px;
+  background: rgba(239, 57, 89, 0.8);
+  -webkit-filter: blur(300px);
+          filter: blur(300px);
+}
+
+.tile:nth-child(10) {
+  position: absolute;
+  width: 800px;
+  height: 800px;
+  left: calc(50% - 800px / 2 + 734px);
+  top: 1933px;
+  background: rgba(74, 134, 255, 0.3);
+  -webkit-filter: blur(400px);
+          filter: blur(400px);
+}
+
+.tile:nth-child(11) {
+  position: absolute;
+  width: 422px;
+  height: 408px;
+  left: calc(50% - 422px / 2 + 621px);
+  top: 3619px;
+  background: rgba(239, 57, 89, 0.8);
+  -webkit-filter: blur(300px);
+          filter: blur(300px);
 }
 /*# sourceMappingURL=main.css.map */
